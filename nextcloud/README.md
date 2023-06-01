@@ -20,6 +20,8 @@ $ docker compose up -d
 
 Navigate to `http://localhost:80` in your web browser to access the installed
 
+![nextcloudhomepage](./preview.png)
+
 
 Stop and remove the containers
 
