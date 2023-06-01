@@ -30,6 +30,8 @@ $ systemctl start clash
 set HTTP/S proxy on device with IP_of_WieServer and 7890 port
 to change node, visit address `http://localhost:9090/ui` in your web browser
 
+![clahs_config](./clash.png)
+
 ## Update exeutable
 For newer clash executable, Country.mmdb and clash-dashboard, please refer to below release channel
 https://github.com/Dreamacro/clash/releases/  choose clash-linux-arm64 version

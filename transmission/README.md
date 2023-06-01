@@ -1,11 +1,11 @@
-## miniDLNA install
+## transmission install
 ```
 $ sudo apt install transmission
 $ sudo apt transmission-daemon
 ```
 
 
-## config miniDLNA
+## config transmission
 ```
 $ sudo service transmission-daemon stop
 $ sudo vim /etc/transmission-daemon/settings.json
