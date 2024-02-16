@@ -3,13 +3,9 @@
 $ sudo su
 $ mkdir /opt/clash/ && cp ./* /opt/clash
 $ cd /opt/clash
-
-$ wget https://github.com/Dreamacro/clash/releases/download/v1.15.1/clash-linux-arm64-v1.15.1.gz
-$ gzip -d clash-linux-arm64-v1.15.1.gz
-$ mv clash-linux-arm64-v1.15.1 clash
 $ chmod +x clash
 
-$ wget https://github.com/Dreamacro/maxmind-geoip/releases/download/20230512/Country.mmdb
+$ wget https://github.com/Dreamacro/maxmind-geoip/releases/download/20240212/Country.mmdb
 
 $ wget  -O config.yaml YOUR_SUBSCRIBE_LINK
 $ vi config.yaml # update  **external-ui** with /opt/clash/clash-dashboard/
@@ -33,7 +29,5 @@ to change node, visit address `http://localhost:9090/ui` in your web browser
 ![clahs_config](./clash.png)
 
 ## Update exeutable
-For newer clash executable, Country.mmdb and clash-dashboard, please refer to below release channel
-https://github.com/Dreamacro/clash/releases/  choose clash-linux-arm64 version
-https://github.com/Dreamacro/maxmind-geoip/releases/ 
-https://github.com/Dreamacro/clash-dashboard/tree/gh-pages
+Clash version is linux-arm64-v1.15.1, clash executable and clash-dashboard are offically not updated since 2023
+For newer Country.mmdb, please refer to https://github.com/Dreamacro/maxmind-geoip/releases/ 
