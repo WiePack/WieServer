@@ -22,6 +22,14 @@ $ systemctl enable clash
 $ systemctl start clash
 ```
 
+## auto update subscribe daily
+```
+$ apt-get install cron
+$ vi update_clash_subscribe.sh  # update subscribe_url
+$ cp update_clash_subscribe.sh /etc/cron/daily/update_clash_subscribe
+```
+
+
 ## Usage
 set HTTP/S proxy on device with IP_of_WieServer and 7890 port
 to change node, visit address `http://localhost:9090/ui` in your web browser
