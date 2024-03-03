@@ -6,8 +6,7 @@ $ cd /opt/clash
 $ chmod +x clash
 
 $ wget https://github.com/Dreamacro/maxmind-geoip/releases/download/20240212/Country.mmdb
-
-$ wget  -O config.yaml YOUR_SUBSCRIBE_LINK
+$ wget  -O config.yaml SUBSCRIBE_URL
 $ vi config.yaml # update  **external-ui** with /opt/clash/clash-dashboard/
 ```
 
@@ -16,6 +15,7 @@ $ vi config.yaml # update  **external-ui** with /opt/clash/clash-dashboard/
 ```
 # star Clash
 $ /opt/clash/clash -d /opt/clash
+
 # auto-start
 $ cp ./clash.service /etc/systemd/system/
 $ systemctl enable clash
@@ -26,7 +26,7 @@ $ systemctl start clash
 ```
 $ apt-get install cron
 $ vi update_clash_subscribe.sh  # update subscribe_url
-$ cp update_clash_subscribe.sh /etc/cron/daily/update_clash_subscribe
+$ cp update_clash_subscribe.sh /etc/cron.daily/update_clash_subscribe
 ```
 
 
