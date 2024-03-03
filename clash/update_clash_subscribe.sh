@@ -8,3 +8,5 @@ wget -O "$local_file" "$subscribe_url"
 sed -i 's/# external-ui: folder/external-ui: \/opt\/clash\/clash-dashboard\//' "$local_file"
 
 mv "$local_file" /opt/clash/config.yaml
+
+systemctl restart clash
