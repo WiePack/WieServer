@@ -1,7 +1,7 @@
 ## Clash Deploy
 ```
 $ sudo su
-$ mkdir /opt/clash/ && cp ./* /opt/clash
+$ mkdir /opt/clash/ && cp -r ./* /opt/clash
 $ cd /opt/clash
 $ chmod +x clash
 
