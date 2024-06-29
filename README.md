@@ -14,4 +14,4 @@ This project provides install instruction guides instead of source code
 - Video gallery use miniDLNA
 - BT download use [Transmission](https://github.com/transmission/transmission)
 - NVR use [Shinobi](https://gitlab.com/Shinobi-Systems/Shinobi)
-- Tunnel use [Clash](https://github.com/Dreamacro/clash)
+- Tunnel use Clash

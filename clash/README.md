@@ -7,7 +7,9 @@ $ chmod +x clash
 
 $ wget https://github.com/Dreamacro/maxmind-geoip/releases/download/20240212/Country.mmdb
 $ wget  -O config.yaml SUBSCRIBE_URL
-$ vi config.yaml # update  **external-ui** with /opt/clash/clash-dashboard/
+$ vi config.yaml # add line external-ui: /opt/clash/clash-dashboard
+                 # set line allow-lan: true
+                 # set line external-controller: ':9090'
 ```
 
 

@@ -13,7 +13,7 @@ docker and docker compose is required [install instruction](https://docs.docker
 ## Deploy
 
 ```
-$ docker compose up -d
+$ docker-compose up -d
 ```
 
 ## Expected result
